@@ -17,7 +17,7 @@
 
 type MessagePropType = {
     msg:string;
-    val?:counter;
+    val?:number;
 }
 
 const Message = (props:MessagePropType) => {
